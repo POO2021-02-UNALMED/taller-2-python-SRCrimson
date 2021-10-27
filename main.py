@@ -1,7 +1,7 @@
 class Asiento:
-    def __init__(self, precio, color, registro):
-        self.precio   = precio 
+    def __init__(self, color, precio, registro): 
         self.color    = color
+        self.precio   = precio
         self.registro = registro
      
     def cambiarColor(self, color):
