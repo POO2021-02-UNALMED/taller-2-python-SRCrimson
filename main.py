@@ -5,8 +5,7 @@ class Asiento:
         self.registro = registro
      
     def cambiarColor(self, color):
-        if (color == 'rojo' or color == 'blanco' or color == 'amarillo' or 
-        color == 'negro' or  color == 'verde'):
+        if (color == 'rojo' or color == 'blanco' or color == 'amarillo' or color == 'negro' or  color == 'verde'):
             self.colot = color 
 
 class Motor:
